@@ -17,8 +17,8 @@ python manage.py runserver
 
 **Dasturni Boshqarish**
 
-* http://127.0.0.1:8000/api/ - Barcha todolarni ko'rish uchun
-* http://127.0.0.1:8000/api/new - yangi todo yaratish
-* http://127.0.0.1:8000/api/id - todolarni id bo'yicha ko'rish
-* http://127.0.0.1:8000/api/id/delete - todolarni id bo'yicha o'chirish
-* http://127.0.0.1:8000/api/id/update - todolarni id bo'yicha yangilash
+* GET/  http://127.0.0.1:8000/api/ - Barcha todolarni ko'rish uchun
+* Post/  http://127.0.0.1:8000/api/new - yangi todo yaratish
+* GET/  http://127.0.0.1:8000/api/id - todolarni id bo'yicha ko'rish
+* Delete/  http://127.0.0.1:8000/api/id/delete - todolarni id bo'yicha o'chirish
+* Put/Patch  http://127.0.0.1:8000/api/id/update - todolarni id bo'yicha yangilash
